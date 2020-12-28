@@ -1,0 +1,16 @@
+<div class="stopwatch">
+    <div class="stopwatch_timer">
+        {{hour}}:{{min}}:{{second}}
+    </div>
+    <div class="stopwatch_buttons">
+        <button (click)="ComandWatch('SS')">
+          {{StartStop}}
+        </button>
+        <button (click)="onClick()">
+          WAIT
+        </button>
+        <button (click)="ComandWatch('RESTART')">
+          RESTART
+        </button>
+    </div>
+  </div>
